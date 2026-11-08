@@ -50,3 +50,22 @@
 .directory-next p{font:13px "Cormorant Garamond",serif;color:#68736a;margin:0}
 .directory-note{max-width:940px;margin:19px auto 0;text-align:center;font-size:10px;line-height:1.6;color:#777e73}
 @media(max-width:760px){.practitioner-directory{padding:65px 6vw}.practitioner-card{grid-template-columns:62px minmax(0,1fr);gap:16px;padding:20px}.practitioner-avatar{width:58px;height:58px;font-size:22px}.practitioner-name-row h3{font-size:23px}.practitioner-actions{grid-column:1/-1}.profile-book-button{width:100%}.directory-next{align-items:stretch;flex-direction:column;padding:20px}.next-button{width:100%}}
+
+/* Safety, care and privacy page: calm cream cards, same palette as the support pages. */
+.safety-contents{display:flex;flex-wrap:wrap;justify-content:center;gap:8px 10px;margin:0 auto 34px;font:13px "DM Sans",sans-serif}
+.safety-contents a{display:inline-block!important;opacity:1;border:1px solid #e7c99166;border-radius:30px;padding:8px 14px;color:#e9e2d3d0}
+.safety-contents a:hover{color:#f0d6a3;border-color:#e7c991}
+.safety-contents a:last-child{padding:8px 14px}
+.safety-card{background:#f4efe4;color:#25342d;padding:32px 34px;margin-bottom:18px;border:1px solid #e4c58b66;scroll-margin-top:24px}
+.safety-card.urgent-card{background:#e8e0d0;border-color:#c99a5a}
+.safety-card h2{font:500 30px/1.15 "Cormorant Garamond",serif;margin:12px 0 12px}
+.safety-card p{font:17px/1.7 "Cormorant Garamond",serif;color:#4f5c53;margin:0 0 12px}
+.safety-card p:last-child{margin-bottom:0}
+.safety-card strong{color:#25342d}
+.safety-card a,.safety-note a,.form-note a,.request-form .consent a{color:#8d693e;border-bottom:1px solid #c9ad7d}
+.safety-note a{color:#f0d6a3;border-color:#f0d6a377}
+.resource-list{list-style:none;margin:18px 0 0;padding:0;border-top:1px solid #d8cdb7}
+.resource-list li{display:flex;justify-content:space-between;align-items:baseline;gap:18px;padding:12px 0;border-bottom:1px solid #d8cdb7;font-size:14px}
+.resource-list li strong{font-weight:600;flex:0 0 auto}
+.resource-list li span{text-align:right;color:#3c4a41}
+@media(max-width:650px){.safety-card{padding:24px 22px}.safety-card h2{font-size:26px}.resource-list li{flex-direction:column;gap:3px}.resource-list li span{text-align:left}}

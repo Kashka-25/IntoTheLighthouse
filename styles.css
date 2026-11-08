@@ -106,3 +106,7 @@ footer .footer-brand .lighthouse-i svg{
   width:100%;
   height:100%;
 }
+
+/* Footer link to the Safety, care and privacy page (on every page). */
+footer .footer-safety{color:#d8d0c0d0}
+footer .footer-safety:hover{color:var(--gold2)}
