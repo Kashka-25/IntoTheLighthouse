@@ -1,8 +1,6 @@
-# HOPEIUM
+# IntoTheLighthouse
 
-**Helping Our People Evolve in Uneasy Moments**
-
-HOPEIUM is a timely human-support service within the Empatherapy ecosystem. It is designed to make reaching out during emotionally difficult moments simple, welcoming and low-friction.
+IntoTheLighthouse (I.T.L) is a timely human-support service within the Empatherapy ecosystem. It is designed to make reaching out during emotionally difficult moments simple, welcoming and low-friction.
 
 ## Current experience
 - `index.html` — concise landing page and primary call to action.
