@@ -9,7 +9,7 @@
 
 ## Before any real booking or request (safety first)
 - [ ] Safeguarding information (drafted on `safety.html`; awaiting Cassidy's review)
-- [ ] Clear local crisis and emergency resources for each country the service operates in (drafted for UK, Ireland, US, Canada, Australia + findahelpline.com; confirm countries served)
+- [ ] Clear local crisis and emergency resources for each country the service operates in (drafted for UK, Ireland, US, Canada, Australia, most of Europe + findahelpline.com; Cassidy confirmed keeping all of these, 8 Nov 2026)
 - [ ] Privacy, consent and data-retention information (interim notice drafted; full details needed before the form or booking goes live)
 
 ## Then
