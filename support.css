@@ -82,3 +82,24 @@ details.safety-card{padding:0}
 .safety-body{padding:0 30px 28px}
 @media(max-width:650px){.safety-card summary{padding:20px 20px;gap:12px}.safety-card summary h2{font-size:23px}.safety-body{padding:0 20px 22px}}
 @media(prefers-reduced-motion:no-preference){.safety-toggle{transition:transform .2s}}
+
+/* Practitioner desk: sign-in, one-tap availability, recent requests. */
+.practitioner-panel{margin-bottom:18px}
+#signed-in{display:flex;flex-direction:column;gap:18px;align-items:center}
+#signed-in[hidden],.practitioner-panel[hidden]{display:none}
+#signed-in>.setup-panel{width:100%}
+.practitioner-signin{background:none;padding:0;text-align:left;max-width:420px;margin:18px auto 0}
+.availability-toggle{display:inline-flex;align-items:center;gap:14px;margin:8px auto 4px;padding:18px 34px;border-radius:40px;border:2px solid #b7a27e;background:#fffdf8;color:#4f5c53;font:600 20px "Cormorant Garamond",serif;cursor:pointer;min-width:250px;justify-content:center}
+.availability-toggle[aria-pressed="true"]{background:#26392e;border-color:#26392e;color:#f6efdf}
+.availability-toggle:focus-visible{outline:3px solid #a27a43;outline-offset:3px}
+.availability-toggle:disabled{opacity:.6;cursor:wait}
+.availability-dot{width:14px;height:14px;border-radius:50%;background:#b7a27e}
+.availability-toggle[aria-pressed="true"] .availability-dot{background:#9fd39a;box-shadow:0 0 10px #9fd39a}
+.availability-help{font-size:13px}
+.request-list{list-style:none;margin:16px 0 0;padding:0;text-align:left}
+.request-list li{border-top:1px solid #d8cdb7;padding:14px 0}
+.request-list .request-meta{font-size:11px;letter-spacing:.06em;color:#8b785b;text-transform:uppercase}
+.request-list .request-who{font:600 18px "Cormorant Garamond",serif;margin:4px 0}
+.request-list .request-note{white-space:pre-wrap;font:16px/1.6 "Cormorant Garamond",serif;color:#4f5c53;margin:6px 0 0}
+.sign-out{margin:4px auto 0}
+.form-trap{position:absolute;left:-10000px;width:1px;height:1px;overflow:hidden}

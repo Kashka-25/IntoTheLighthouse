@@ -15,6 +15,10 @@ conversation. Plain HTML/CSS/JS, no build step, served by GitHub Pages.
 - `booking.html` — honest placeholder until a real calendar is connected
 - `request.html` / `request.js` — request form UI; NOT connected to any delivery yet
 - `styles.css`, `support.css`, `script.js`, `assets/` (practitioner photos)
+- `safety.html` / `safety.js`: Safety, care and privacy page (crisis lines, safeguarding, privacy), shown as dropdowns
+- `practitioner.html` / `practitioner.js`: private, invite-only page where practitioners switch availability and read requests
+- `itl-config.js`: Supabase URL, publishable key, and the `requestsLive` switch (keep it `false` until tested end to end)
+- `supabase/`: migrations, the `submit-request` Edge Function and auth config. See `docs/BACKEND.md`
 
 ## Decisions (Cassidy, 8 Nov 2026)
 - Renamed HOPEIUM → **IntoTheLighthouse**; short form **"I.T.L"** only where a short form is
@@ -26,6 +30,15 @@ conversation. Plain HTML/CSS/JS, no build step, served by GitHub Pages.
   Empatherapy ecosystem** later ("Part of the Empatherapy ecosystem" wording stays).
 - The vision is **warm, poetic, safe, simple and friendly** — NOT immersive. No 3D, no heavy
   animation, no gamified journeys. Fonts: Cormorant Garamond + DM Sans; deep green and gold palette.
+
+## Backend (9 Nov 2026)
+- Supabase project `intothelighthouse` (ref `icjnqanwottjvxjjfwzp`), **Ireland (eu-west-1)**, in its own
+  "IntoTheLighthouse" org (Free plan for now; upgrade to Pro before launch). Never use the YOU,
+  Wandering or CommYOUnity projects for IntoTheLighthouse data.
+- Scheduling will use **Cal.com** (each practitioner has their own account linked to Google Calendar).
+- Three practitioners at launch. Every request or booking emails the company inbox **and** the
+  practitioner's personal email. Under-18s are supported only by legally qualified practitioners.
+- How it works, how to add a practitioner, and the go-live checklist: `docs/BACKEND.md`.
 
 ## Not built yet (from README)
 1. Real scheduling — a calendar/provider that shows only confirmed availability
