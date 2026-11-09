@@ -13,8 +13,10 @@
 - [ ] Privacy, consent and data-retention information (interim notice with promises approved by Cassidy, 9 Nov 2026; full details needed before the form or booking goes live)
 
 ## Then
-- [ ] Connect a real scheduling provider or calendar; display only confirmed availability
+- [ ] Connect a real scheduling provider or calendar; display only confirmed availability (Cal.com chosen: one account per practitioner, linked to Google Calendar)
 - [ ] Connect the request form to a secure backend with practitioner notifications and a reliable response workflow
+  - [x] Supabase project (Ireland), locked-down tables, `submit-request` function, practitioner availability page, 30-day auto-delete (9 Nov 2026)
+  - [ ] Email sending (company inbox + practitioner), custom auth SMTP, Pro plan, then switch `requestsLive` on (checklist in `docs/BACKEND.md`)
 - [ ] Configure and verify practitioner contact details
 - [ ] Test booking and request flows end to end before presenting them as operational
 
