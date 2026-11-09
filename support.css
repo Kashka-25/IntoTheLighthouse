@@ -69,3 +69,16 @@
 .resource-list li strong{font-weight:600;flex:0 0 auto}
 .resource-list li span{text-align:right;color:#3c4a41}
 @media(max-width:650px){.safety-card{padding:24px 22px}.safety-card h2{font-size:26px}.resource-list li{flex-direction:column;gap:3px}.resource-list li span{text-align:left}}
+.resource-subhead{font:600 11px "DM Sans",sans-serif;letter-spacing:.14em;text-transform:uppercase;color:#99774b;margin:26px 0 0}
+/* Safety sections as calm dropdowns: tap a heading to open it. Emergency help starts open. */
+details.safety-card{padding:0}
+.safety-card summary{list-style:none;cursor:pointer;display:flex;align-items:center;gap:16px;padding:24px 30px}
+.safety-card summary::-webkit-details-marker{display:none}
+.safety-card summary:focus-visible{outline:2px solid #a27a43;outline-offset:-4px}
+.safety-card summary .choice-symbol{font-size:24px;flex:0 0 auto}
+.safety-card summary h2{margin:0;flex:1}
+.safety-toggle{flex:0 0 auto;width:34px;height:34px;display:grid;place-items:center;border:1px solid #c9ad7d;border-radius:50%;color:#8d693e;font-size:16px;line-height:1}
+.safety-card[open] .safety-toggle{transform:rotate(180deg);background:#d9b47722}
+.safety-body{padding:0 30px 28px}
+@media(max-width:650px){.safety-card summary{padding:20px 20px;gap:12px}.safety-card summary h2{font-size:23px}.safety-body{padding:0 20px 22px}}
+@media(prefers-reduced-motion:no-preference){.safety-toggle{transition:transform .2s}}
