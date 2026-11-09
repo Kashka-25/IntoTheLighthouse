@@ -1,0 +1,42 @@
+/* Demo walkthrough. No web fonts are loaded here (no network calls), so give local fallbacks. */
+.demo-page{font-family:"DM Sans",system-ui,-apple-system,"Segoe UI",sans-serif}
+.demo-page h1,.demo-page h2,.demo-page .support-intro,.demo-page nav{font-family:"Cormorant Garamond",Georgia,"Times New Roman",serif}
+.demo-ribbon{display:flex;flex-direction:column;gap:4px;align-items:center;text-align:center;margin:0 auto 34px;max-width:720px;padding:12px 18px;border:1px dashed #e7c991aa;border-radius:12px;background:#ffffff0d;color:#e9e2d3d0;font-size:12px;line-height:1.5}
+.demo-ribbon strong{color:#f0d6a3;letter-spacing:.08em;text-transform:uppercase;font-size:11px}
+.demo-badge{display:table;margin:0 auto 18px;padding:6px 12px;border-radius:30px;background:#f0d6a3;color:#25342d;font-size:11px;font-weight:600;letter-spacing:.06em}
+.demo-nav-tag{color:#f0d6a3!important;font-size:11px;letter-spacing:.15em;text-transform:uppercase}
+.demo-step h1:focus{outline:none}
+.demo-card{text-align:left}
+.demo-card h2{margin-top:6px}
+.demo-points{padding-left:20px;color:#4f5c53;line-height:1.7;margin:0 0 22px}
+.demo-points li{margin-bottom:8px}
+.demo-points a{color:#8d693e;border-bottom:1px solid #c9ad7d}
+.demo-people{display:grid;gap:16px;margin-bottom:24px}
+.demo-person{display:grid;grid-template-columns:72px 1fr;gap:20px;align-items:start;background:#f4efe4;color:#25342d;padding:24px;border:1px solid #e4c58b66}
+.demo-avatar{width:72px;height:72px;border-radius:50%;display:grid;place-items:center;font:500 24px "Cormorant Garamond",Georgia,serif;color:#39483d;border:1px solid #c7b58e}
+.demo-person h2{font:500 26px "Cormorant Garamond",Georgia,serif;margin:2px 0 4px}
+.demo-fictional{margin:0;font-size:9px;letter-spacing:.18em;text-transform:uppercase;color:#99774b}
+.demo-focus{margin:0 0 8px;font-size:12px;color:#8b785b}
+.demo-bio{margin:0 0 10px;font:16px/1.6 "Cormorant Garamond",Georgia,serif;color:#4f5c53}
+.demo-status{display:inline-block;margin:0;font-size:11px;padding:5px 10px;border-radius:20px;border:1px solid #d8c7a5;color:#6d6250}
+.demo-status.is-available{background:#26392e;color:#f6efdf;border-color:#26392e}
+.demo-nav{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-top:22px}
+.demo-nav.center{justify-content:center}
+.demo-back{background:none;border:0;color:#e5d6b7d0;font:12px "DM Sans",system-ui,sans-serif;cursor:pointer;padding:10px 0}
+.demo-card .demo-back{color:#8d693e}
+.demo-fieldset{border:0;padding:0;margin:4px 0 6px}
+.demo-fieldset legend{font-size:12px;font-weight:600;margin-bottom:8px}
+.demo-fieldset legend span{font-weight:400;color:#849087}
+.demo-options{display:flex;flex-wrap:wrap;gap:10px}
+.demo-option{display:flex;align-items:center;gap:6px;font-weight:400!important;margin:0!important;padding:8px 12px;border:1px solid #d8d2c5;background:#fffdf8;border-radius:24px;cursor:pointer}
+.demo-slots{display:flex;flex-wrap:wrap;gap:8px}
+.demo-slot{padding:10px 14px;border:1px solid #c9ad7d;background:#fffdf8;color:#25342d;border-radius:8px;font:13px "DM Sans",system-ui,sans-serif;cursor:pointer}
+.demo-slot[aria-pressed="true"]{background:#26392e;color:#f6efdf;border-color:#26392e}
+.demo-hint{font-size:12px;color:#849087;margin:0}
+.demo-error{color:#8c4e34;font-weight:600;min-height:1em}
+.demo-summary{font:20px/1.5 "Cormorant Garamond",Georgia,serif;color:#25342d;margin:0 0 12px}
+.demo-sent{font-size:13px;color:#4f5c53;border-top:1px solid #d8cdb7;padding-top:14px}
+@media(max-width:650px){.demo-person{grid-template-columns:52px 1fr;gap:14px;padding:18px}.demo-avatar{width:52px;height:52px;font-size:19px}.demo-ribbon{font-size:11px}}
+.demo-step>.overline{text-align:center}
+.demo-step>h1{text-align:center;font:500 clamp(40px,7vw,70px)/.98 "Cormorant Garamond",Georgia,serif;margin:20px 0}
+.request-form .demo-option input[type=radio]{width:auto;padding:0;margin:0;border:0}
