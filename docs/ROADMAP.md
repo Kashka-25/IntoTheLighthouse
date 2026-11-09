@@ -5,12 +5,12 @@
 - [x] Rename HOPEIUM → IntoTheLighthouse (repo, Pages URL, site text, wordmark)
 
 ## Open decisions
-- [ ] Tagline: the old acronym line was removed with the rename; choose a new one (or none)
+- [ ] Tagline: the old acronym line was removed with the rename. Cassidy (8 Nov 2026): no new tagline yet.
 
 ## Before any real booking or request (safety first)
-- [ ] Safeguarding information
-- [ ] Clear local crisis and emergency resources for each country the service operates in
-- [ ] Privacy, consent and data-retention information
+- [ ] Safeguarding information (on `safety.html`; wording approved by Cassidy, 9 Nov 2026; under-18s only with legally qualified practitioners)
+- [ ] Clear local crisis and emergency resources for each country the service operates in (drafted for UK, Ireland, US, Canada, Australia, most of Europe + findahelpline.com; Cassidy confirmed keeping all of these, 8 Nov 2026)
+- [ ] Privacy, consent and data-retention information (interim notice with promises approved by Cassidy, 9 Nov 2026; full details needed before the form or booking goes live)
 
 ## Then
 - [ ] Connect a real scheduling provider or calendar; display only confirmed availability
