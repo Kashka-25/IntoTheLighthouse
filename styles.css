@@ -26,8 +26,6 @@
 @media(max-width:700px){.ecosystem .lighthouse-i{height:1.55em;width:.42em;margin-left:.12em;margin-right:.12em}}
 /* Mid-word lighthouse (the "i" of Lighthouse): the letters before it already carry .2em tracking, so space only after it. */
 .ecosystem .lighthouse-i{margin-left:0;margin-right:.2em}
-/* Mid-word lighthouse (the "i" of Lighthouse): the letters before it already carry .2em tracking, so space only after it. */
-.ecosystem .lighthouse-i{margin-left:0;margin-right:.2em}
 
 
 /* A calm, expandable explanation of the IntoTheLighthouse connection experience. */
