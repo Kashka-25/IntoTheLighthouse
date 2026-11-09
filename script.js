@@ -1,4 +1,4 @@
-// HOPEIUM landing page: keep interactions intentionally simple.
+// IntoTheLighthouse landing page: keep interactions intentionally simple.
 
 (() => {
   const gallery = document.querySelector(".practitioner-gallery");
