@@ -24,7 +24,7 @@ conversation. Plain HTML/CSS/JS, no build step, served by GitHub Pages.
 - Renamed HOPEIUM → **IntoTheLighthouse**; short form **"I.T.L"** only where a short form is
   clearly needed. The old acronym tagline ("Helping Our People Evolve in Uneasy Moments")
   was removed; no replacement tagline has been chosen yet — don't invent one.
-- The wordmark draws the "I" of "Into" as an inline SVG lighthouse (`.lighthouse-i`).
+- The wordmark draws the "i" of "Lighthouse" as an inline SVG lighthouse (`.lighthouse-i`).
   Accessible name comes from `aria-label="IntoTheLighthouse"` on the wrapping element.
 - It keeps its **own project space** (this repo), and stays ready to **integrate into the
   Empatherapy ecosystem** later ("Part of the Empatherapy ecosystem" wording stays).
