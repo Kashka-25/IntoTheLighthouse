@@ -26,6 +26,11 @@
 @media(max-width:700px){.ecosystem .lighthouse-i{height:1.55em;width:.42em;margin-left:.12em;margin-right:.12em}}
 /* Mid-word lighthouse (the "i" of Lighthouse): the letters before it already carry .2em tracking, so space only after it. */
 .ecosystem .lighthouse-i{margin-left:0;margin-right:.2em}
+/* Baseline alignment (Cassidy, 9 Nov 2026): the lighthouse stands on the same baseline as the letters
+   and rises above them, the tallest "letter" in the wordmark. Header, home-page title and footer. */
+.itl-wordmark,.ecosystem,body footer .footer-brand{align-items:baseline}
+.itl-wordmark .lighthouse-i,.ecosystem .lighthouse-i,body footer .footer-brand .lighthouse-i{height:1.1em;width:.43em;margin-bottom:0;transform:translateY(.022em);vertical-align:baseline}
+.itl-wordmark .lighthouse-i{margin-left:.02em;margin-right:.04em}
 
 
 /* A calm, expandable explanation of the IntoTheLighthouse connection experience. */
